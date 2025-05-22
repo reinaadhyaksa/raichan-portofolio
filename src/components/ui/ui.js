@@ -77,7 +77,7 @@ export function AboutSection() {
                             Saya adalah seorang Front-End Developer yang berfokus pada pengembangan website dan aplikasi web yang responsif, interaktif, serta berorientasi pada pengalaman pengguna.
                         </p>
                         <p className="text-lg text-gray-600 mb-4">
-                            Saya menjunjung tinggi prinsip <span className="font-semibold text-indigo-600">"clean code"</span> dan <span className="font-semibold text-indigo-600">"user-first design"</span>, dengan keyakinan bahwa setiap elemen antarmuka harus dirancang secara terstruktur dan fungsional untuk mendukung kenyamanan serta kebutuhan pengguna.
+                                {`Saya menjunjung tinggi prinsip <span className="font-semibold text-indigo-600">"clean code"</span> dan <span className="font-semibold text-indigo-600">"user-first design"</span>, dengan keyakinan bahwa setiap elemen antarmuka harus dirancang secara terstruktur dan fungsional untuk mendukung kenyamanan serta kebutuhan pengguna.`}
                         </p>
                         <p className="text-lg text-gray-600 mb-6">
                             Di luar aktivitas pengembangan, saya aktif mempelajari teknologi terbaru, berbagi wawasan di komunitas developer, serta sesekali berkontribusi pada proyek open source..
