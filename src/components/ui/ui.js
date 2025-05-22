@@ -22,7 +22,7 @@ export function DesktopNavbar() {
 
 export function MobileNavbar() {
     return (
-        <div className="mobile-menu hidden md:hidden bg-white py-4 px-2">
+        <div className="mobile-menu md:hidden md:hidden bg-white py-4 px-2">
             <a href="#home" className="block py-2 px-4 text-sm hover:bg-gray-100">Beranda</a>
             <a href="#about" className="block py-2 px-4 text-sm hover:bg-gray-100">Tentang</a>
             <a href="#projects" className="block py-2 px-4 text-sm hover:bg-gray-100">Proyek</a>

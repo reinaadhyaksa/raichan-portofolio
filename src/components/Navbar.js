@@ -1,3 +1,5 @@
+'use client';
+import { useState } from "react";
 import { DesktopNavbar, MobileNavbar } from "./ui/ui";
 
 export default function Navbar() {
@@ -13,7 +15,7 @@ export default function Navbar() {
                     <DesktopNavbar />
                     <div className="md:hidden flex items-center">
                         <button 
-                            onClick={() => setMenuOpen(false)}
+                            onClick={() => setMenuOpen(!menuOpen)}
                             className="mobile-menu-button"
                         >
                             <i className="fas fa-bars text-gray-700 text-xl"></i>
