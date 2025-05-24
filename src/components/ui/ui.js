@@ -38,7 +38,7 @@ export function HeroSection() {
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div data-aos="fade-right">
-                        <h1 className="text-4xl md:text-5xl font-bold mb-4">Hai, Saya <span className="text-indigo-600">Raichan Machrus Adhyaksa</span></h1>
+                        <h1 className="text-4xl md:text-5xl font-bold mb-4">Hai, Saya <span className="text-indigo-600">Julio Reina Artamevina</span></h1>
                         <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-gray-600">Front-End Developer</h2>
                         <p className="text-lg text-gray-600 mb-8">
                             Saya berfokus pada pengembangan antarmuka web yang modern, responsif, dan efisien dengan mengintegrasikan teknologi terkini untuk memastikan pengalaman pengguna yang optimal.

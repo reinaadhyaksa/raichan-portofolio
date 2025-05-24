@@ -47,6 +47,27 @@ export const dataProjects = [
         descriptions: "Website layanan pesan makanan dengan antarmuka modern, pemesanan lewat whattsapp, dan tampilan responsif.",
         teknologi: ["React", "Tailwind CSS", "JavaScript"],
         link: "https://kulina-rasa.vercel.app/",
+    },
+    {
+        "myImg": "https://images.unsplash.com/photo-1706519254272-3bab697e2c6c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z2FsbGVyeSUyMHBvcnRvZm9saW8lMjBpbWFnZXMlMjBjb3ZlcnxlbnwwfHwwfHx8MA%3D%3D",
+        "title": "GlowFresh Beauty",
+        "descriptions": "Website portofolio untuk studio kecantikan profesional dengan tampilan modern dan galeri layanan.",
+        "teknologi": ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
+        "link": "https://glowfresh.vercel.app/"
+    },
+    {
+        "myImg": "https://images.unsplash.com/photo-1706519254272-3bab697e2c6c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z2FsbGVyeSUyMHBvcnRvZm9saW8lMjBpbWFnZXMlMjBjb3ZlcnxlbnwwfHwwfHx8MA%3D%3D",
+        "title": "PixelFrame Studio",
+        "descriptions": "Portofolio fotografi profesional dengan galeri interaktif dan tampilan visual yang memukau.",
+        "teknologi": ["HTML", "CSS", "JavaScript", "GSAP"],
+        "link": "https://pixelframe-studio-seven.vercel.app/"
+    },
+    {
+        "myImg": "https://images.unsplash.com/photo-1706519254272-3bab697e2c6c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z2FsbGVyeSUyMHBvcnRvZm9saW8lMjBpbWFnZXMlMjBjb3ZlcnxlbnwwfHwwfHx8MA%3D%3D",
+        "title": "Photo Portofolio",
+        "descriptions": "Website portofolio fotografi dengan tampilan minimalis dan navigasi yang user-friendly.",
+        "teknologi": ["HTML", "CSS", "JavaScript", "React"],
+        "link": "https://photo-portofolio.vercel.app/"
     }
 ];
 
