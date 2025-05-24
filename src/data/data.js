@@ -49,14 +49,14 @@ export const dataProjects = [
         link: "https://kulina-rasa.vercel.app/",
     },
     {
-        "myImg": "https://images.unsplash.com/photo-1706519254272-3bab697e2c6c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z2FsbGVyeSUyMHBvcnRvZm9saW8lMjBpbWFnZXMlMjBjb3ZlcnxlbnwwfHwwfHx8MA%3D%3D",
-        "title": "GlowFresh Beauty",
-        "descriptions": "Website portofolio untuk studio kecantikan profesional dengan tampilan modern dan galeri layanan.",
+        "myImg": "https://images.pexels.com/photos/7376929/pexels-photo-7376929.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "title": "GlowFresh",
+        "descriptions": "Website landing page untuk sebuah produk",
         "teknologi": ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
         "link": "https://glowfresh.vercel.app/"
     },
     {
-        "myImg": "https://images.unsplash.com/photo-1706519254272-3bab697e2c6c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z2FsbGVyeSUyMHBvcnRvZm9saW8lMjBpbWFnZXMlMjBjb3ZlcnxlbnwwfHwwfHx8MA%3D%3D",
+        "myImg": "https://images.pexels.com/photos/15364852/pexels-photo-15364852/free-photo-of-cahaya-sinar-seni-kesenian.jpeg?auto=compress&cs=tinysrgb&w=600D",
         "title": "PixelFrame Studio",
         "descriptions": "Portofolio fotografi profesional dengan galeri interaktif dan tampilan visual yang memukau.",
         "teknologi": ["HTML", "CSS", "JavaScript", "GSAP"],
