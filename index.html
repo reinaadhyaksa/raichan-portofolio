@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raichan Adhyaksa | Front-End Developer</title>
+    <link rel="shortcut icon" href="icons8-favicon-50.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body class="min-h-screen overflow-x-hidden">
+    <nav class="fixed w-full z-50 bg-black bg-opacity-90 backdrop-blur-sm py-4 px-6 shadow-lg">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold gradient-text">Raichan</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#home" class="nav-link text-white hover:text-purple-300 transition">Home</a>
+                <a href="#about" class="nav-link text-white hover:text-purple-300 transition">About</a>
+                <a href="#skills" class="nav-link text-white hover:text-purple-300 transition">Skills</a>
+                <a href="#projects" class="nav-link text-white hover:text-purple-300 transition">Projects</a>
+                <a href="#certificates" class="nav-link text-white hover:text-purple-300 transition">Certificates</a>
+                <a href="#contact" class="nav-link text-white hover:text-purple-300 transition">Contact</a>
+            </div>
+            <button class="md:hidden text-white focus:outline-none" id="mobile-menu-button">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+        <div class="md:hidden hidden bg-black bg-opacity-95 absolute top-16 left-0 right-0 py-4 px-6" id="mobile-menu">
+            <div class="flex flex-col space-y-4">
+                <a href="#home" class="text-white hover:text-purple-300 transition">Home</a>
+                <a href="#about" class="text-white hover:text-purple-300 transition">About</a>
+                <a href="#skills" class="text-white hover:text-purple-300 transition">Skills</a>
+                <a href="#projects" class="text-white hover:text-purple-300 transition">Projects</a>
+                <a href="#certificates" class="nav-link text-white hover:text-purple-300 transition">Certificates</a>
+                <a href="#contact" class="text-white hover:text-purple-300 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="min-h-screen flex items-center justify-center pt-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto text-center" data-aos="fade-up">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
+                <span class="gradient-text">Front-End</span> Developer
+            </h1>
+            <p class="text-lg sm:text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
+                Creating modern, responsive web applications with React and Tailwind CSS.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#projects"
+                    class="px-8 py-3 bg-gradient-to-r from-purple-600 to-blue-500 text-white font-semibold rounded-full hover:shadow-lg hover:shadow-purple-500/30 transition-all duration-300 transform hover:-translate-y-1">
+                    View My Work
+                </a>
+                <a href="#contact"
+                    class="px-8 py-3 border-2 border-purple-500 text-white font-semibold rounded-full hover:bg-purple-500 hover:bg-opacity-20 transition-all duration-300 transform hover:-translate-y-1">
+                    Contact Me
+                </a>
+            </div>
+            <div class="mt-16 animate-bounce">
+                <a href="#about" class="text-gray-400 hover:text-white transition">
+                    <i class="fas fa-chevron-down text-2xl"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-black to-gray-900">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center gradient-text" data-aos="fade-up">About Me</h2>
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <div class="lg:w-1/3" data-aos="fade-right">
+                    <div class="relative group">
+                        <div
+                            class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-blue-500 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-200">
+                        </div>
+                        <div class="relative rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                                alt="Developer Photo" class="w-full h-auto object-cover">
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-2/3" data-aos="fade-left">
+                    <h3 class="text-2xl font-bold mb-4 text-white">Hi, I'm Raichan Machrus Adhyaksa</h3>
+                    <p class="text-gray-300 mb-6">
+                        A passionate Front-End Developer specializing in React, JavaScript, and modern web technologies.
+                        I build responsive, user-friendly web applications with clean code and intuitive interfaces.
+                    </p>
+                    <p class="text-gray-300 mb-6">
+                        My toolkit includes Vite for fast development, Tailwind CSS for styling, and Git/GitHub for
+                        version control.
+                        I'm experienced in working with REST APIs and building responsive layouts.
+                    </p>
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                        <div class="flex items-center">
+                            <i class="fas fa-briefcase text-purple-400 mr-2"></i>
+                            <span class="text-gray-300">2 Years Exp</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-project-diagram text-purple-400 mr-2"></i>
+                            <span class="text-gray-300">20 Projects</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center gradient-text" data-aos="fade-up">My Skills</h2>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+                <div
+                    class="skill-card bg-gray-800 p-6 rounded-lg flex flex-col items-center hover:bg-gray-700 transition transform hover:-translate-y-1">
+                    <i class="fab fa-html5 text-4xl text-orange-500 mb-3"></i>
+                    <span class="text-white">HTML5</span>
+                </div>
+
+                <div
+                    class="skill-card bg-gray-800 p-6 rounded-lg flex flex-col items-center hover:bg-gray-700 transition transform hover:-translate-y-1">
+                    <i class="fab fa-css3-alt text-4xl text-blue-500 mb-3"></i>
+                    <span class="text-white">CSS3</span>
+                </div>
+
+                <div
+                    class="skill-card bg-gray-800 p-6 rounded-lg flex flex-col items-center hover:bg-gray-700 transition transform hover:-translate-y-1">
+                    <i class="fab fa-js text-4xl text-yellow-400 mb-3"></i>
+                    <span class="text-white">JavaScript</span>
+                </div>
+
+                <div
+                    class="skill-card bg-gray-800 p-6 rounded-lg flex flex-col items-center hover:bg-gray-700 transition transform hover:-translate-y-1">
+                    <img src="https://vitejs.dev/logo.svg" alt="Vite" class="h-10 mb-3">
+                    <span class="text-white">Vite</span>
+                </div>
+
+                <div
+                    class="skill-card bg-gray-800 p-6 rounded-lg flex flex-col items-center hover:bg-gray-700 transition transform hover:-translate-y-1">
+                    <i class="fab fa-react text-4xl text-blue-400 mb-3"></i>
+                    <span class="text-white">React</span>
+                </div>
+
+                <div
+                    class="skill-card bg-gray-800 p-6 rounded-lg flex flex-col items-center hover:bg-gray-700 transition transform hover:-translate-y-1">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+                        alt="Tailwind CSS" class="h-10 mb-3">
+                    <span class="text-white">Tailwind CSS</span>
+                </div>
+
+                <div
+                    class="skill-card bg-gray-800 p-6 rounded-lg flex flex-col items-center hover:bg-gray-700 transition transform hover:-translate-y-1">
+                    <i class="fab fa-npm text-4xl text-red-500 mb-3"></i>
+                    <span class="text-white">npm</span>
+                </div>
+
+                <div
+                    class="skill-card bg-gray-800 p-6 rounded-lg flex flex-col items-center hover:bg-gray-700 transition transform hover:-translate-y-1">
+                    <i class="fab fa-git-alt text-4xl text-orange-600 mb-3"></i>
+                    <span class="text-white">Git</span>
+                </div>
+
+                <div
+                    class="skill-card bg-gray-800 p-6 rounded-lg flex flex-col items-center hover:bg-gray-700 transition transform hover:-translate-y-1">
+                    <i class="fas fa-mobile-alt text-4xl text-blue-400 mb-3"></i>
+                    <span class="text-white">Responsive</span>
+                </div>
+
+                <div
+                    class="skill-card bg-gray-800 p-6 rounded-lg flex flex-col items-center hover:bg-gray-700 transition transform hover:-translate-y-1">
+                    <i class="fab fa-github text-4xl text-gray-300 mb-3"></i>
+                    <span class="text-white">GitHub</span>
+                </div>
+
+                <div
+                    class="skill-card bg-gray-800 p-6 rounded-lg flex flex-col items-center hover:bg-gray-700 transition transform hover:-translate-y-1">
+                    <i class="fas fa-server text-4xl text-green-500 mb-3"></i>
+                    <span class="text-white">REST API</span>
+                </div>
+
+                <div
+                    class="skill-card bg-gray-800 p-6 rounded-lg flex flex-col items-center hover:bg-gray-700 transition transform hover:-translate-y-1">
+                    <img src="https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-big.png" alt="Webpack"
+                        class="h-10 mb-3">
+                    <span class="text-white">Webpack</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 px-4 sm:px-6 lg:px-8 bg-black">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center gradient-text" data-aos="fade-up">My Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="projects-container"></div>
+            <div class="text-center mt-12" data-aos="fade-up">
+                <button id="load-more-btn"
+                    class="inline-block px-8 py-3 border-2 border-purple-500 text-white font-semibold rounded-full hover:bg-purple-500 hover:bg-opacity-20 transition-all duration-300">
+                    Load More Projects
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center gradient-text" data-aos="fade-up">My Certificates
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8" id="certificates-container"></div>
+            <div class="text-center mt-12" data-aos="fade-up">
+                <button id="load-more-certs"
+                    class="inline-block px-8 py-3 border-2 border-purple-500 text-white font-semibold rounded-full hover:bg-purple-500 hover:bg-opacity-20 transition-all duration-300">
+                    Load More Certificates
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center gradient-text" data-aos="fade-up">Contact Me
+            </h2>
+
+            <div class="flex flex-col items-center">
+                <div class="text-center max-w-2xl mb-12">
+                    <p class="text-gray-300 mb-8">
+                        Feel free to reach out to me through these platforms. I'm open to collaborations and new
+                        opportunities.
+                    </p>
+                </div>
+
+                <div class="flex flex-wrap justify-center gap-8">
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/6282313931717" target="_blank"
+                        class="w-20 h-20 flex flex-col items-center justify-center bg-gray-800 rounded-xl hover:bg-green-600 transition transform hover:-translate-y-1 hover:shadow-lg hover:shadow-green-500/20">
+                        <i class="fab fa-whatsapp text-3xl text-white mb-2"></i>
+                        <span class="text-white text-sm">WhatsApp</span>
+                    </a>
+
+                    <!-- GitHub -->
+                    <a href="https://github.com/reinaadhyaksa" target="_blank"
+                        class="w-20 h-20 flex flex-col items-center justify-center bg-gray-800 rounded-xl hover:bg-gray-700 transition transform hover:-translate-y-1 hover:shadow-lg hover:shadow-gray-500/20">
+                        <i class="fab fa-github text-3xl text-white mb-2"></i>
+                        <span class="text-white text-sm">GitHub</span>
+                    </a>
+
+                    <!-- Instagram -->
+                    <a href="https://instagram.com/raichan.ma" target="_blank"
+                        class="w-20 h-20 flex flex-col items-center justify-center bg-gray-800 rounded-xl hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 transition transform hover:-translate-y-1 hover:shadow-lg hover:shadow-pink-500/20">
+                        <i class="fab fa-instagram text-3xl text-white mb-2"></i>
+                        <span class="text-white text-sm">Instagram</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 px-4 sm:px-6 lg:px-8 bg-black">
+        <div class="max-w-7xl mx-auto text-center">
+            <p class="text-gray-400">© 2025 Raichan Adhyaksa. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button id="back-to-top"
+        class="fixed bottom-8 right-8 w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center text-white shadow-lg hover:bg-purple-700 transition hidden">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
